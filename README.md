@@ -32,6 +32,7 @@
 1. Run `pip freeze` to get the list.
 2. Run `pip freeze > requirements.txt` to generate the list and save it to a `requirements.txt` file.
 
+
 ## For Mac
 - .
 
