@@ -33,8 +33,38 @@
 2. Run `pip freeze > requirements.txt` to generate the list and save it to a `requirements.txt` file.
 
 
+
+<br />
+
+<br />
+
+<br />
+
+
 ## For Mac
-- .
+
+1. Navigate to the desired directory.
+2. Run `virtualenv myProjectA`.
+
+##### Activate Virtual Environment
+
+1. Navigate to `myProjectA` directory.
+2. Run `source bin/activate`.
+
+##### Deactivate Virtual Environment
+
+1. Run `deactivate`.
+2. Run `pip list` to verify.
+
+##### Delete Virtual Environment
+
+1. Delete the `myProjectA` folder or `rm -rf myProjectA`
+
+##### Create Requirements File
+
+1. Run `pip freeze` to get the list.
+2. Run `pip freeze > requirements.txt` to generate the list and save it to a `requirements.txt` file.
+
 
 
 ## For Linux Distros
