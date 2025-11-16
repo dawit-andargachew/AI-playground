@@ -1,0 +1,7 @@
+# Request: state of burrow resources
+int32 current_apples  # n: current number of apples in burrow
+int32 burrow_size     # s: maximum capacity of burrow
+---
+# Response: whether turtle found enough apples
+bool enough_apples    # True if found enough to fill burrow, False otherwise
+int32 apples_found    # Number of apples detected by LIDAR
