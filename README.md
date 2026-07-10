@@ -1,77 +1,23 @@
 # AI-playground
 ### *A collection of AI-related experiments—ML, NLP, Vision, class projects, etc.—along with personal explorations. A space to test ideas and get my hands dirty.*
 
+## Environment Setup
 
-<br />
-<br />
-<br />
-<br />
+Use `uv` or `pip` for environment management.
 
-# Create Python Virtual Environment
+### uv (recommended)
 
-### For Windows
+```bash
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+```
 
-1. Navigate to the desired directory.
-2. Run `virtualenv myProjectA`.
+### pip (alternative)
 
-##### Activate Virtual Environment
-
-1. Navigate to `myProjectA` directory.
-2. Run `Scripts\activate`.
-
-##### Deactivate Virtual Environment
-
-1. Run `Scripts\deactivate.bat`.
-2. Run `pip list` to verify.
-
-##### Delete Virtual Environment
-
-1. Delete the `myProjectA` folder.
-
-##### Create Requirements File
-
-1. Run `pip freeze` to get the list.
-2. Run `pip freeze > requirements.txt` to generate the list and save it to a `requirements.txt` file.
-
-
-
-<br />
-
-<br />
-
-<br />
-
-
-## For Mac
-
-1. Navigate to the desired directory.
-2. Run `virtualenv myProjectA`.
-
-##### Activate Virtual Environment
-
-1. Navigate to `myProjectA` directory.
-2. Run `source bin/activate`.
-
-##### Deactivate Virtual Environment
-
-1. Run `deactivate`.
-2. Run `pip list` to verify.
-
-##### Delete Virtual Environment
-
-1. Delete the `myProjectA` folder or `rm -rf myProjectA`
-
-##### Create Requirements File
-
-1. Run `pip freeze` to get the list.
-2. Run `pip freeze > requirements.txt` to generate the list and save it to a `requirements.txt` file.
-
-
-
-## For Linux Distros
-- .
-
-
-
-
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
